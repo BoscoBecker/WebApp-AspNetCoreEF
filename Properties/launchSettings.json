@@ -1,0 +1,31 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=desktop-h2ftp3n\\MSSQLLocalDB;Database=University;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:36250",
+      "sslPort": 44354
+    }
+  },
+  "profiles": {
+    "WepApp": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7163;http://localhost:5163",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
